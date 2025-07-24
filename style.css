@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 150px 4511px;
+    
+}
+#home-color{
+    font-weight: 700;
+    color: #252432;
+}
+.nav-links a{
+    justify-content: space-between;
+    text-decoration: none;
+        
+}
+.nav-links{
+    display: flex;
+    gap: 48px;
+    color: #252432;
+}
+.font-color{
+    color:#8987A1 ;
+}
+.cart{
+    color: #000000;
+}
+
+/* RESPONSIVE SECTION FOR NAVBAR */
+
+@media screen and (max-width:576px){
+    nav .hide{
+        display: none;
+        
+    }
+    nav img{
+        justify-content: left;
+        width: 63px;
+        height: 38px;
+        
+    }
+    nav{
+        display: flex;
+        margin: 67px 16px 4505px;
+    }
+    
+}
+  
+
